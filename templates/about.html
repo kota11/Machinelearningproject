@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Recommendation System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    /* Custom Styles */
+    body {
+      background-color: #ffffff; /* White Background Color */
+      color: #374151;
+      font-family: 'Poppins', Arial, sans-serif;
+    }
+    .title-font {
+      font-family: 'Pacifico', cursive;
+    }
+    .text-pink {
+      color: #f06292;
+    }
+    .text-red {
+      color: #ef5350;
+    }
+    .text-gray {
+      color: #757575;
+    }
+    .btn-pink {
+      background-color: #f06292;
+      border-color: #f06292;
+    }
+    .btn-pink:hover {
+      background-color: #e91e63;
+      border-color: #e91e63;
+    }
+    .btn-red {
+      background-color: #ef5350;
+      border-color: #ef5350;
+    }
+    .btn-red:hover {
+      background-color: #c62828;
+      border-color: #c62828;
+    }
+    .hero-title {
+      font-size: 4rem;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .hero-description {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      color: #f06292;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .about-title {
+      font-size: 2rem;
+      color: #f06292;
+    }
+    .about-text {
+      font-size: 1.1rem;
+      color: #757575;
+      line-height: 1.8;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    .about-text b {
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f06292; /* Hover Color for Links */
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-300">
+  <header class="text-gray-600 body-font -my-8">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <a href="/"><img src="https://e0.pxfuel.com/wallpapers/755/123/desktop-wallpaper-best-movie-clipart-black-and-white-film-reel.jpg" class="w-10 h-10" alt="Movie Recommendation System Logo"></a>
+       <a href="/"> <span class="ml-3 text-xl title-font">Movie <span class="text-pink">Recommendation</span> System</span></a>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a href="/" class="mr-5 hover:text-pink">Home</a>
+        <a href="/about" class="mr-5 hover:text-pink">About</a>
+        <a href="/contact" class="mr-5 hover:text-pink">Contact Us</a>
+        <a href="/recommendation" class="mr-5 hover:text-pink">Recommendation</a>
+      </nav>
+    </div>
+  </header>
+  <section class="bg-white text-gray-600 body-font -my-8">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+        <img alt="Chandrika Kota" src="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX37232641.jpg" class="w-40 h-40 rounded-full inline-block object-cover object-center mb-8">
+        <p class="leading-relaxed text-lg about-text">
+          <span class="text-pink font-bold">Welcome to the Movie Recommendation System!</span><br>
+          This project was developed as part of the prestigious Microsoft Engage program. I am <span class="text-red font-bold">Chandrika Kota</span>, a highly motivated and dedicated Electronics and Communication Engineering Student with a strong academic background. My interests lie in the fascinating fields of machine learning and web app development, and I am passionate about software development. I have experience in C++ and Git, and I am committed to continuous learning and expanding my technical expertise.
+        </p>
+        <span class="inline-block h-1 w-10 rounded bg-pink-500 mt-8 mb-6"></span>
+        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Chandrika Kota</h2>
+        <p class="text-gray-500">Electronics and Communication Engineering Student</p>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
