@@ -8,3 +8,8 @@ In this project, we will develop a recommendation model using Collaborative Filt
 individual users. By analyzing user interactions and preferences, our model will provide movie recommendations that are personalized and optimized for each user's 
 taste and interests.
 Stay tuned for more updates on our GitHub repository as we work on building this exciting movie recommendation system!
+
+# Here is a demo of the project!!
+
+https://github.com/kota11/Machinelearningproject/assets/106473412/b6957b20-9617-4ee0-9f6a-0a01769af55c
+
