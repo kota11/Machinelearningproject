@@ -11,5 +11,9 @@ Stay tuned for more updates on our GitHub repository as we work on building this
 
 # Here is a demo of the project!!
 
-https://github.com/kota11/Machinelearningproject/assets/106473412/b6957b20-9617-4ee0-9f6a-0a01769af55c
+![Screenshot 2023-08-14 225806]
+
+https://github.com/kota11/Machinelearningproject/assets/106473412/5df0ed3c-af00-4970-8c92-16b6391428a4
+
+
 
